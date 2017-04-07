@@ -8,15 +8,15 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 90px;
+    height: 80px;
     z-index: 100; }
     body nav .nav-title {
       font-weight: bold;
       position: absolute;
-      left: 100px;
+      left: 40px;
       padding: 20px 20px; }
     body nav .nav-name {
-      font-size: 30px;
+      font-size: 27px;
       color: #b4cce2; }
     body nav .nav-ul {
       position: absolute;
@@ -28,7 +28,7 @@ body {
         cursor: pointer; }
     body nav .nav-li {
       list-style: none;
-      font-size: 15px;
+      font-size: 13px;
       float: left;
       text-align: center;
       padding: 10px 20px;
@@ -44,14 +44,14 @@ body {
     body nav .nav-dataCenter-list {
       position: absolute;
       padding-left: 0;
-      top: 43px;
+      top: 40px;
       left: 0;
       background-color: #424242; }
       body nav .nav-dataCenter-list ul {
         padding-left: 0; }
       body nav .nav-dataCenter-list li {
         list-style: none;
-        padding: 15px 20px; }
+        padding: 12px 20px; }
       body nav .nav-dataCenter-list li:hover,
       body nav .nav-dataCenter-list li:active {
         background-color: #565656; }
@@ -62,8 +62,7 @@ body {
       color: white;
       text-align: center;
       z-index: 2;
-      position: relative;
-      top: -220px; }
+      position: relative; }
       body content .text h1 {
         font-weight: normal;
         text-shadow: 2px 2px 5px #424242; }

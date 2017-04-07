@@ -19,17 +19,17 @@ body{
 		position: fixed;
 		top:0;
 		width: 100%;
-		height: 90px;
+		height: 80px;
 		z-index: 100;
 		.nav-title{
 
 			font-weight:bold;
 			position: absolute;
-			left: 100px;
+			left: 40px;
 			padding: 20px 20px;
 		}
 		.nav-name{
-			font-size: 30px;
+			font-size: 27px;
 			color: #b4cce2;
 		}
 		.nav-ul{
@@ -44,7 +44,7 @@ body{
 		}
 		.nav-li{
 			list-style:none;
-			font-size: 15px;
+			font-size: 13px;
 			float: left;
 			text-align: center;
 			padding: 10px 20px;
@@ -64,7 +64,7 @@ body{
 		.nav-dataCenter-list{
 			position: absolute;
 			padding-left: 0;
-			top: 43px;
+			top: 40px;
 			left: 0;
 			background-color: $black;
 			ul{
@@ -72,7 +72,7 @@ body{
 			}
 			li{
 				list-style:none;
-				padding: 15px 20px;
+				padding: 12px 20px;
 			}
 			li:hover,
 			li:active{
@@ -89,7 +89,7 @@ body{
 			text-align: center;
 			z-index: 2;
 			position: relative;
-			top: -220px;
+			//top: -220px;
 			h1{
 				font-weight: normal;
 				text-shadow: 2px 2px 5px $black;
